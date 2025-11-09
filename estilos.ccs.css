@@ -1,0 +1,190 @@
+@charset "utf-8";
+body {
+    background-color: #03345c;
+    width: 1050px;
+    height: 1515px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.principal {
+    background-color: #00597a;
+    width: 900px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    height: 1444px;
+    left: auto;
+    right: auto;
+    clear: both;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+header {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #00374b;
+    line-height: 76px;
+    left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0px;
+    word-spacing: normal;
+    white-space: normal;
+    border-style: outset;
+    border-color: #FFFFFF;
+    border-top-right-radius: 0px;
+    text-align: left;
+    width: 900px;
+    height: 77px;
+}
+nav {
+    background-color: #5d859f;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #aabcca;
+    width: 900px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    height: 22px;
+}
+section {
+    background-color: #7995ac;
+    width: 900px;
+    height: 1298px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    background-color: #00374b;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    white-space: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.Derecho {
+    width: 400px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: 31px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 0px;
+}
+.Izquierdo {
+    width: 400px;
+    float: left;
+    text-align: justify;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+
+#thumbnails{
+    width: 560px;
+    height: 150px;
+    clear: none;
+    position: absolute;
+    left: 343px;
+    top: 540px;
+    margin-left: 98px;
+}
+#video1 {
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    z-index: 3;
+    top: 210px;
+    right: auto;
+    left: 340px;
+    border-left-width: 0px;
+    margin-left: 98px;
+}
+#video2 {
+    width: 560px;
+    height: 333px;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left: 340px;
+    margin-left: 98px;
+}
+#video3 {
+    width: 560px;
+    height: 315px;
+    float: none;
+    clear: both;
+    position: absolute;
+    z-index: 1;
+    top: 210px;
+    left: 340px;
+    margin-left: 98px;
+}
+#video4 {
+    width: 560px;
+    height: 315px;
+    margin-left: 98px;
+    top: 170px;
+    left: -100px;
+    z-index: 6;
+    position: absolute;
+}
+#video5 {
+    width: 560px;
+    height: 315px;
+    margin-left: 98px;
+    top: 170px;
+    left: -100px;
+    position: absolute;
+    z-index: 5;
+    right: -345px;
+}
+#video6 {
+    width: 560px;
+    height: 315px;
+    margin-left: 98px;
+    top: 170px;
+    left: -100px;
+    position: absolute;
+    z-index: 4;
+}
+#thumbnails2 {
+    width: 560px;
+    height: 150px;
+    top: 190px;
+    left: -170px;
+    margin-left: 175px;
+    margin-top: 310px;
+    position: absolute;
+}
